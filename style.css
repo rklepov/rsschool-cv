@@ -63,6 +63,13 @@ body {
 }
 
 /* HEADER */
+.header {
+    background-color: #fafafa;
+}
+
+.footer {
+    background-color: #fafafa;
+}
 
 .nav-list {
     display: flex;
