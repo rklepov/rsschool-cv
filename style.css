@@ -49,6 +49,19 @@ body {
     margin: 0 auto;
 }
 
+/* LINKS */
+
+.link {
+    transition: 0.3s;
+    text-decoration: none;
+    /* color: maroon; */
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: grey;
+}
+
 /* HEADER */
 
 .nav-list {
@@ -62,18 +75,7 @@ body {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    transition: 0.3s;
     text-transform: capitalize;
-}
-
-.nav-link {
-    text-decoration: none;
-    /* color: maroon; */
-    transition: color 0.5s;
-}
-
-.nav-link:hover {
-    color: grey;
 }
 
 /* MAIN */
