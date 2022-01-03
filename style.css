@@ -1,5 +1,13 @@
 /* style.css */
 
+/* VARS */
+:root {
+    --DEV-element-border-solid: solid;
+    --DEV-element-border-dashed: dashed;
+}
+
+/* GLOBAL */
+
 * {
     box-sizing: border-box;
 }
@@ -12,7 +20,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    border: 1px solid green;
+    border: 1px var(--DEV-element-border-solid) green;
 }
 
 body {
@@ -33,7 +41,7 @@ body {
 .header,
 .main,
 .footer {
-    border: 1px solid red;
+    border: 1px var(--DEV-element-border-solid) red;
 }
 
 .container {
@@ -48,6 +56,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    padding: 0;
 }
 
 .nav-link {
@@ -76,7 +85,6 @@ body {
 
 .section {
     width: 50%;
-    text-transform: capitalize;
 }
 
 @media (max-width: 768px) {
@@ -91,14 +99,14 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     /* color: grey; */
-    border: 1px dashed black;
+    border: 1px var(--DEV-element-border-dashed) black;
 }
 
 .section-profile {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    border: 1px solid blue;
+    border: 1px var(--DEV-element-border-solid) blue;
 }
 
 .section-profile-image {
@@ -115,11 +123,22 @@ body {
     justify-content: center;
     align-content: center;
     text-align: center;
-    border: 1px solid cyan;
+    border: 1px var(--DEV-element-border-solid) cyan;
 }
 
-.section-profile-contacts {
+.section-profile-contacts-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
     list-style: none;
+    padding: 0;
+    border: 1px var(--DEV-element-border-dashed) black;
+}
+
+.section-profile-contact-item {
+    border: 1px var(--DEV-element-border-dashed) black;
 }
 
 .main-title {
@@ -135,7 +154,7 @@ body {
 }
 
 .footer-icon img {
-    border: 1px dashed blue;
+    border: 1px var(--DEV-element-border-dashed) blue;
 }
 
 .footer-icon-rss img {
