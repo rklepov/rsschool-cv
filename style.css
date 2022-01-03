@@ -85,6 +85,8 @@ body {
 
 .section {
     width: 50%;
+    padding: 10px;
+    padding-bottom: 35px;
 }
 
 @media (max-width: 768px) {
@@ -143,6 +145,10 @@ body {
 
 .main-title {
     font-size: 175%;
+}
+
+.text-emph {
+    font-style: italic;
 }
 
 /* FOOTER */
