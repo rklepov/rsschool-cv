@@ -3,8 +3,8 @@
 /* VARS */
 
 :root {
-    --DEV-element-border-solid: solid;
-    --DEV-element-border-dashed: dashed;
+    --DEV-element-border-solid: none;
+    --DEV-element-border-dashed: none;
 }
 
 /* GLOBAL */
