@@ -22,6 +22,14 @@ body {
     justify-content: space-between;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: maroon; */
+}
+
 .header,
 .main,
 .footer {
@@ -32,6 +40,8 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+/* HEADER */
 
 .nav-list {
     display: flex;
@@ -46,6 +56,18 @@ body {
     transition: 0.3s;
     text-transform: capitalize;
 }
+
+.nav-link {
+    text-decoration: none;
+    /* color: maroon; */
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+/* MAIN */
 
 .main-container {
     display: flex;
@@ -62,6 +84,16 @@ body {
         width: 100%;
     }
 }
+
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /* color: grey; */
+}
+
+/* FOOTER */
 
 .footer-container {
     display: flex;
