@@ -1,6 +1,7 @@
 /* style.css */
 
 /* VARS */
+
 :root {
     --DEV-element-border-solid: solid;
     --DEV-element-border-dashed: dashed;
@@ -165,6 +166,10 @@ body {
 
 .section-code-pre code {
     font-size: 85%;
+}
+
+.section-english-level {
+    font-weight: 900;
 }
 
 .text-emph {
