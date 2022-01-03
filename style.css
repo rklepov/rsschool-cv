@@ -5,7 +5,23 @@
 }
 
 body {
-    background-color: darkorange;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+}
+
+body {
+    /* background-color: darkorange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header,
+.main,
+.footer {
+    border: 1px solid red;
 }
 
 /* __EOF__ */
