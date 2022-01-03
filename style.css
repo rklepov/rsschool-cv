@@ -55,7 +55,7 @@ body {
 .link {
     transition: 0.3s;
     text-decoration: none;
-    /* color: maroon; */
+    color: maroon;
     transition: color 0.5s;
 }
 
