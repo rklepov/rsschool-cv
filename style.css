@@ -63,4 +63,18 @@ body {
     }
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-icon img {
+    border: 1px dashed blue;
+}
+
+.footer-icon-rss img {
+    width: 100px;
+}
+
 /* __EOF__ */

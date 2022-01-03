@@ -18,7 +18,7 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
@@ -74,7 +74,17 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container">footer</div>
+        <div class="container footer-container">
+            <a class="footer-icon footer-icon-github" href="https://github.com/rklepov" target="_blank">
+                <img src="assets/svg/github.svg" alt="github.com/rklepov"></a>
+            <p class="footer-year">
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+            </p>
+            <a class="footer-icon footer-icon-rss" href="https://rs.school/js/" target="_blank"><img
+                    src="assets/svg/rsschool.svg" alt="RS School JS/FE"></a>
+        </div>
     </footer>
 </body>
 
