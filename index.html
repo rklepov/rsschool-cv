@@ -128,7 +128,7 @@
                     <li class="section-item">
                         <a href="https://rs.school/nodejs/" class="link section-link" target="_blank">Back-end
                             development</a>:<span>
-                            NodeJS</span> <span class="text-emph">(learning)</span>
+                            NodeJS, TypeScript</span> <span class="text-emph">(learning)</span>
                     </li>
                     <li class="section-item">
                         Version control:<span> git, GitHub</span>
@@ -179,12 +179,39 @@
 
             <section class="section" id="code">
                 <h2 class="section-title">code</h2>
-                <p></p>
+
+                <p class="section-code-task-description"> Peak array index KATA from <span
+                        class="text-emph">Codewars:</span></p>
+                <p> Given an array of ints, return the index such that the sum
+                    of the elements to the right of that index equals the sum of the
+                    elements to the left of that index. If there is no such index,
+                    return -1. If there is more than one such index, return the
+                    left-most index.
+                </p>
+                <pre class="section-code-pre"><code>const sum=a=>a.reduce((s,x)=>s+x,0);
+const peak=a=>a
+    .map((x,i)=>sum(a.slice(0,i))===sum(a.slice(i+1)))
+    .indexOf(!0)</code></pre>
             </section>
 
             <section class="section" id="projects">
                 <h2 class="section-title">projects</h2>
-                <p></p>
+
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a href="https://github.com/rolling-scopes-school/basic-nodejs-course/blob/master/descriptions/simple-crud-api.md"
+                            class="link section-link" target="_blank">RSS NodeJS</a>: <a
+                            href="https://github.com/rklepov/simple-crud-api" class="link section-link"
+                            target="_blank">Simple CRUD
+                            API</a> server
+                    </li>
+                    <li class="section-item">
+                        <a href="https://github.com/rolling-scopes-school/basic-nodejs-course/blob/master/descriptions/rest-service.md"
+                            class="link section-link" target="_blank">RSS NodeJS</a>: <a
+                            href="https://github.com/rklepov/nodejs2021Q4-service/tree/TS-stable-v1"
+                            class="link section-link" target="_blank">REST service</a> (on <span
+                            class="text-emph">TypeScript)</span>
+                    </li>
             </section>
 
             <section class="section" id="english">
