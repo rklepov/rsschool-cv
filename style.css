@@ -118,6 +118,10 @@ body {
     border: 1px solid cyan;
 }
 
+.section-profile-contacts {
+    list-style: none;
+}
+
 .main-title {
     font-size: 175%;
 }
