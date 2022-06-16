@@ -75,6 +75,7 @@ body {
 .nav-list {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
     padding: 0;
